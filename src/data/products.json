@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "description": "Premium noise-cancelling wireless headphones with 30-hour battery life",
+        "price": 299.99,
+        "image": "https://i.ibb.co.com/svPg7zJB/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "Noise Cancelling",
+            "30h Battery",
+            "Bluetooth 5.0",
+            "Quick Charge"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "description": "Advanced fitness tracking smartwatch with heart rate monitor",
+        "price": 399.99,
+        "image": "https://i.ibb.co.com/VpDmwbBn/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "Heart Rate Monitor",
+            "GPS",
+            "Water Resistant",
+            "7-day Battery"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 3,
+        "name": "Coffee Maker",
+        "description": "Programmable drip coffee maker with thermal carafe",
+        "price": 129.99,
+        "image": "https://i.ibb.co.com/ZRwNdrcP/download.jpg",
+        "category": "Home & Kitchen",
+        "features": [
+            "Programmable",
+            "Thermal Carafe",
+            "Auto Shut-off",
+            "12-cup Capacity"
+        ],
+        "inStock": false
+    },
+    {
+        "id": 4,
+        "name": "Yoga Mat",
+        "description": "Non-slip premium yoga mat with alignment lines",
+        "price": 49.99,
+        "image": "https://i.ibb.co.com/JW1rNVLq/download.jpg",
+        "category": "Fitness",
+        "features": [
+            "Non-slip",
+            "Alignment Lines",
+            "Eco-friendly",
+            "6mm Thick"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 5,
+        "name": "Laptop Stand",
+        "description": "Adjustable aluminum laptop stand for ergonomic workspace",
+        "price": 79.99,
+        "image": "https://i.ibb.co.com/35NbjqKj/download.jpg",
+        "category": "Office",
+        "features": [
+            "Adjustable Height",
+            "Aluminum Build",
+            "Portable",
+            "Heat Dissipation"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 6,
+        "name": "Bluetooth Speaker",
+        "description": "Portable waterproof Bluetooth speaker with 360° sound",
+        "price": 89.99,
+        "image": "https://i.ibb.co.com/QvrBs4J7/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "Waterproof",
+            "360° Sound",
+            "12h Battery",
+            "Voice Assistant"
+        ],
+        "inStock": true
+    }
+]
