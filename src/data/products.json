@@ -4,7 +4,7 @@
         "name": "Wireless Headphones",
         "description": "Premium noise-cancelling wireless headphones with 30-hour battery life",
         "price": 299.99,
-        "image": "https://i.ibb.co.com/svPg7zJB/download.jpg",
+        "image": "https://i.ibb.co.com/R4NCtzV8/download.jpg",
         "category": "Electronics",
         "features": [
             "Noise Cancelling",
@@ -19,7 +19,7 @@
         "name": "Smart Watch",
         "description": "Advanced fitness tracking smartwatch with heart rate monitor",
         "price": 399.99,
-        "image": "https://i.ibb.co.com/VpDmwbBn/download.jpg",
+        "image": "https://i.ibb.co.com/YTpLNdfQ/download.jpg",
         "category": "Electronics",
         "features": [
             "Heart Rate Monitor",
@@ -64,7 +64,7 @@
         "name": "Laptop Stand",
         "description": "Adjustable aluminum laptop stand for ergonomic workspace",
         "price": 79.99,
-        "image": "https://i.ibb.co.com/35NbjqKj/download.jpg",
+        "image": "https://i.ibb.co.com/tM6mjD0v/download.jpg",
         "category": "Office",
         "features": [
             "Adjustable Height",
@@ -79,13 +79,163 @@
         "name": "Bluetooth Speaker",
         "description": "Portable waterproof Bluetooth speaker with 360° sound",
         "price": 89.99,
-        "image": "https://i.ibb.co.com/QvrBs4J7/download.jpg",
+        "image": "https://i.ibb.co.com/B5r8gpb9/download.jpg",
         "category": "Electronics",
         "features": [
             "Waterproof",
             "360° Sound",
             "12h Battery",
             "Voice Assistant"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 7,
+        "name": "Gaming Mouse",
+        "description": "High-precision RGB gaming mouse designed for competitive gaming, featuring adjustable DPI up to 16000, ergonomic grip, and ultra-fast response time for smooth and accurate gameplay.",
+        "price": 59.99,
+        "image": "https://i.ibb.co.com/RGDGCN1D/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "16000 DPI",
+            "RGB Lighting",
+            "Ergonomic Design",
+            "Programmable Buttons"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "name": "Mechanical Keyboard",
+        "description": "Durable mechanical keyboard with tactile switches, customizable RGB backlighting, and anti-ghosting technology, ideal for both gaming and professional typing.",
+        "price": 149.99,
+        "image": "https://i.ibb.co.com/bMZqxLjQ/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "Mechanical Switches",
+            "RGB Backlight",
+            "Anti-Ghosting",
+            "Metal Frame"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 9,
+        "name": "Air Purifier",
+        "description": "Advanced HEPA air purifier designed to remove 99.97% of airborne particles, allergens, and odors, providing clean and fresh air for medium to large rooms.",
+        "price": 249.99,
+        "image": "https://i.ibb.co.com/HDvQhV1L/download.jpg",
+        "category": "Home & Kitchen",
+        "features": [
+            "HEPA Filter",
+            "Quiet Operation",
+            "Air Quality Sensor",
+            "Energy Efficient"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 10,
+        "name": "Electric Kettle",
+        "description": "Fast-boiling stainless steel electric kettle with temperature control, automatic shut-off, and sleek modern design for everyday kitchen convenience.",
+        "price": 69.99,
+        "image": "https://i.ibb.co.com/HfY695CN/download.jpg",
+        "category": "Home & Kitchen",
+        "features": [
+            "Temperature Control",
+            "Auto Shut-off",
+            "1.7L Capacity",
+            "Stainless Steel"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 11,
+        "name": "Office Chair",
+        "description": "Ergonomic office chair with breathable mesh back, adjustable lumbar support, and smooth-rolling wheels to ensure all-day comfort during long working hours.",
+        "price": 299.99,
+        "image": "https://i.ibb.co.com/XxDJwSK4/download.jpg",
+        "category": "Office",
+        "features": [
+            "Lumbar Support",
+            "Adjustable Height",
+            "Breathable Mesh",
+            "360° Swivel"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 12,
+        "name": "Fitness Dumbbell Set",
+        "description": "Adjustable dumbbell set suitable for home workouts, made with durable materials and ergonomic handles to support strength training and muscle building.",
+        "price": 199.99,
+        "image": "https://i.ibb.co.com/VppkKsGf/download.jpg",
+        "category": "Fitness",
+        "features": [
+            "Adjustable Weights",
+            "Non-Slip Grip",
+            "Durable Plates",
+            "Home Workout"
+        ],
+        "inStock": false
+    },
+    {
+        "id": 13,
+        "name": "Backpack",
+        "description": "Multi-compartment travel and laptop backpack made from water-resistant fabric, designed for daily commuting, travel, and business use.",
+        "price": 89.99,
+        "image": "https://i.ibb.co.com/Lzs9Gy45/download.jpg",
+        "category": "Accessories",
+        "features": [
+            "Water Resistant",
+            "Laptop Compartment",
+            "USB Charging Port",
+            "Lightweight"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 14,
+        "name": "Desk Lamp",
+        "description": "LED desk lamp with adjustable brightness levels, eye-care lighting technology, and flexible arm, perfect for studying, reading, or office work.",
+        "price": 39.99,
+        "image": "https://i.ibb.co.com/xtn1XkJP/download.png",
+        "category": "Office",
+        "features": [
+            "LED Light",
+            "Touch Control",
+            "Eye Protection",
+            "Adjustable Arm"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 15,
+        "name": "Power Bank",
+        "description": "High-capacity portable power bank with fast charging support and multiple output ports, ensuring your devices stay powered throughout the day.",
+        "price": 49.99,
+        "image": "https://i.ibb.co.com/NnxB9wWY/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "Fast Charging",
+            "20000mAh",
+            "Multiple Ports",
+            "Compact Design"
+        ],
+        "inStock": true
+    },
+    {
+        "id": 16,
+        "name": "Smart LED TV",
+        "description": "Ultra HD smart LED TV with vibrant display, built-in streaming apps, and voice control support, delivering an immersive home entertainment experience.",
+        "price": 899.99,
+        "image": "https://i.ibb.co.com/gZcPNqN2/download.jpg",
+        "category": "Electronics",
+        "features": [
+            "4K UHD",
+            "Smart TV",
+            "Voice Control",
+            "HDR Support"
         ],
         "inStock": true
     }
