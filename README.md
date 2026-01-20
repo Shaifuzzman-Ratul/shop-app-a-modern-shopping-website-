@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ AppShop – Premium Product Discovery Platform
 
-## Getting Started
+**AppShop** is a modern full-stack web application built with **Next.js (App Router)** and **Express.js**, designed to help users discover premium products curated just for them. From cutting-edge electronics to everyday essentials, AppShop delivers a clean, fast, and user-friendly shopping experience.
 
-First, run the development server:
+(Live Link:https://shopapp-lovat.vercel.app/ )
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project demonstrates a complete frontend and backend workflow using Next.js and Express.js.  
+It includes a public landing page, mock authentication, public item listings, detailed item pages, and an optional protected page for adding new items.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The goal of this project is to showcase:
+- Routing with Next.js App Router
+- Authentication & route protection
+- API integration with Express.js
+- Clean UI and component structure
+- Best practices for full-stack development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Features
 
-To learn more about Next.js, take a look at the following resources:
+### 1️⃣ Landing Page
+- Publicly accessible (no authentication required)
+- Clean and responsive design
+- Navbar includes navigation links to:
+  - Login
+  - Items
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2️⃣ Authentication
+- Login credentials stored in **cookies**
+- Protected routes for authenticated users
+- Redirect unauthenticated users to login
+- Redirects to **Items page after successful login**
 
-## Deploy on Vercel
+🔐 **Optional (Recommended Enhancement):**
+- NextAuth.js integration
+- Google or credentials-based login
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3️⃣ Item List Page
+- Publicly accessible
+- Fetches item data from an **JSON**
+- Displays items in card format
+- Each item card includes:
+  - Item name
+  - Description
+  - Price
+  - Image 
+
+---
+
+### 4️⃣ Item Details Page
+- Publicly accessible
+- Displays full details of a selected product
+- Uses dynamic routing with Next.js App Router
+
+---
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **Next.js 15/16 (App Router)**
+- React
+- Tailwind CSS
+- Cookies for authentication
+- Toast notifications
+
+### Backend
+- **Express.js**
+ JSON
+
+---
+Git Repo : https://github.com/Shaifuzzman-Ratul/shop-app-a-modern-shopping-website-
+
